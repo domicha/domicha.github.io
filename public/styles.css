@@ -1,0 +1,415 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html {
+    display: block;
+}
+
+.user-gist h3.fullname {
+    font-size: 25px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #252525;
+    padding: 3px 0 2px 0;
+}
+
+.user-gist p.designation {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+
+body {
+    font-family: "Graphik", "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 1;
+    background: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.section.work .container::before {
+    content: "Featured Work";
+    font-size: 20px;
+}
+.section .container::before {
+    font-size: 16px;
+    line-height: 16px;
+    background: #FFFFFF;
+    position: absolute;
+    top: -158px;
+    left: -16px;
+    padding: 0 16px;
+    color: #C5C5C5;
+}
+
+.section {
+    padding: 150px 0;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+
+.home {
+    position: relative;
+    z-index: 1000;
+    background: #FFFFFF;
+    margin-bottom: 752px;
+}
+
+h3 {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+
+}
+
+.footer .user-gist h3.fullname {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 8px 0 4px 0;
+}
+
+.user-gist p.designation {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.user-blurb {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: block;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.user-gist .icon-symbol {
+    width: 40px;
+    height: 40px;
+    background: url(../images/icon-symbol-blue.png) top left no-repeat;
+    background-size: 40px 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.user-blurb .previously {
+    font-size: 14px;
+    line-height: 14px;
+    color: #757575;
+}
+
+.section {
+    padding: 150px 0;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+ul.featured-work li .thumb, ul.featured-work li .thumb img, ul.featured-work li .thumb-link, ul.featured-work li .thumb .thumb-link img {
+    width: 100%;
+    height: 320px;
+    position: relative;
+    transition: all .3s ease-in-out;
+    z-index: 0;
+}
+
+ul.featured-work {
+    margin: 0 0 -60px 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.section.profile {
+    border-bottom: none;
+}
+.section {
+    padding: 150px 0;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.about-wrap {
+    overflow: hidden;
+}
+
+.bio {
+    width: 460px;
+    float: left;
+}
+
+.bio > h4 {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    padding: 0 40px 40px 0;
+    color: #252525;
+}
+
+
+.bio > p {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0 40px 40px 0;
+    color: #252525;
+}
+
+h4 {
+    display: block;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.mentions {
+    width: 460px;
+    float: left;
+    background: #F8F8F8;
+    padding: 80px;
+    margin: 10px 0 0 40px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+}
+
+.mentions h3 {
+    font-size: 14px;
+    line-height: 14px;
+    color: #252525;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+ul.highlights {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px dotted #DDDDDD;
+}
+ol, ul {
+    list-style: none;
+}
+
+ul.highlights li .annotation {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #959595;
+    text-align: right;
+}
+
+ul.showcase {
+    margin: 0;
+    padding: 0;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+ul.showcase li {
+    font-size: 14px;
+    line-height: 22px;
+    color: #757575;
+}
+
+.footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    right: 0;
+    height: 752px;
+    background: #3274FF;
+    background-attachment: fixed;
+    z-index: 0;
+}
+
+.footer .section {
+    border-bottom: none;
+}
+.section {
+    padding: 150px 0;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+
+.user-blurb  {
+    font-size: 42px;
+    line-height: 56px;
+    color: #252525;
+    padding-bottom: 40px;
+}
+
+
+.footer .user-gist {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+}
+
+.footer .user-gist .icon-symbol {
+    width: 60px;
+    height: 60px;
+    background: url(pictures/instapic.jpg) top left no-repeat;
+    background-size: 60px 60px;
+    position: relative;
+    display: inline-block;
+}
+
+.footer .user-gist p.designation {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.lets-chat {
+    width: 1px;
+    height: 120px;
+    background: rgba(255, 255, 255, 0.4);
+    margin: 20px auto;
+    position: relative;
+}
+
+.contact {
+    margin: 0;
+    text-align: center;
+}
+
+.contact .email {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 500;
+    color: #FFFFFF;
+    display: inline-block;
+    text-decoration: underline;
+    transition: all .2s ease-in-out;
+}
+
+.contact .availability {
+    font-size: 16px;
+    line-height: 20px;
+    display: block;
+    padding: 20px 0 0 0;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.footer .colophon .container{
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 30px 0;
+    overflow: hidden;
+}
+
+.colophon .copyright {
+    float: left;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.colophon ul.social-links {
+    float: right;
+    overflow: hidden;
+}
+ol, ul {
+    list-style: none;
+}
+
+.colophon ul.social-links li {
+    float: left;
+    margin-left: 20px;
+}
+
+.colophon ul.social-links li a {
+    color: rgba(255, 255, 255, 0.75);
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.section.profile .container::before {
+    content: "Profile";
+    font-size: 20px;
+}
+.section .container::before {
+    font-size: 16px;
+    line-height: 16px;
+    background: #FFFFFF;
+    position: absolute;
+    top: -158px;
+    left: -16px;
+    padding: 0 16px;
+    color: #C5C5C5;
+}
+
+
+ul.featured-work li .thumb, ul.featured-work li .thumb img, ul.featured-work li .thumb-link, ul.featured-work li .thumb .thumb-link img {
+    width: 100%;
+    height: 320px;
+    position: relative;
+    transition: all .3s ease-in-out;
+    z-index: 0;
+}
+
+img {
+    width: 100%;
+
+}
+
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {opacity:0.5};
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+#top,#middle,#bottom{
+    height: 600px;
+    width: 300px;
+    background: green; 
+}
