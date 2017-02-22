@@ -11,7 +11,7 @@ const app = express();
 // // END OF NEW CODE
 
 // NEW CODE
-app.use(express.static('public'));
+app.use(express.static(__dirname + '/build'));
 // END OF NEW CODE
 
 // start Express on port 8080
