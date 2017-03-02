@@ -186,7 +186,7 @@ h4 {
 
 .mentions {
     width: 460px;
-    float: left;
+    float: right;
     background: #F8F8F8;
     padding: 80px;
     margin: 10px 0 0 40px;
@@ -274,7 +274,7 @@ ul.showcase li {
 .footer .user-gist .icon-symbol {
     width: 60px;
     height: 60px;
-    background: url(pictures/pic.jpg) top left no-repeat;
+    background: url(./pictures/pic.jpg) top left no-repeat;
     background-size: 60px 60px;
     position: relative;
     display: inline-block;
